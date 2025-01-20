@@ -9,20 +9,23 @@
     <link rel="icon" type="image/png" href="ep-audits-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6 z-10">
+    <header class="absolute z-30 w-[100vw]">    
+        <nav class="flex items-center justify-between flex-wrap bg-[#F8F8F2] px-8 py-4 z-10 mx-20 my-10 rounded-lg">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <a href="index.html">
-                    <img src="logo.png" alt="" class="min-w-[250px] max-w-[20vw]">
+                    <img src="logo-green.png" alt="" class="min-w-[200px] max-w-[15vw]">
                 </a>
             </div>
             <div class="block lg:hidden">
                 <button
                     class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-blue-darkest hover:bg-white"
                     onclick="myFunction()">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="fill-green-900 scale-[1.5] h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <title>Menu</title>
                         <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                     </svg>
@@ -31,29 +34,56 @@
             <div class="w-full hidden lg:block lg:flex lg:items-center lg:w-auto" id="nav">
                 <div class="text-sm lg:flex-grow">
                     <a href="index.html"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-gray-200 hover:underline">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-green-900 hover:underline">
                         Home
                     </a>
                     <a href="about.html"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-gray-200 hover:underline">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-green-900 hover:underline">
                         About
                     </a>
                     <a href="services.html"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-gray-200 hover:underline">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-green-900 hover:underline">
                         Services
                     </a>
                     <a href="pricing.html"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-gray-200 hover:underline">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-green-900 hover:underline">
                         Pricing & Plans
                     </a>
                     <a href="contact.html"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white text-lg text-gray-200 hover:underline">
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white text-lg text-green-900 hover:underline">
                         Contact
                     </a>
                 </div>
             </div>
         </nav>
     </header>
+
+    <div class="relative h-[100vh]">
+        <!-- Background Video -->
+        <video class="absolute top-0 left-0 w-full h-full object-cover z-10" autoplay loop muted>
+          <source src="background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    
+        <!-- Content Overlay -->
+        <div class="relative z-20 p-24 pt-40 flex flex-col justify-center h-full bg-black bg-opacity-60">
+          <h1 class="text-[#F8F8F2] text-4xl mb-10">
+            Local, family-run lawn service for over 20 years
+          </h1>
+          <h2 class="text-[#F8F8F2] text-2xl font-medium mb-10">
+            Proudly servicing personal and commercial properties in:
+          </h2>
+          <div class="grid grid-cols-3 gap-10 md:gap-6 xl:gap-2 text-[#F8F8F2] text-sm md:text-lg font-medium mb-10 w-[75vw] xl:w-[50vw]">
+            <p>Port Orange, FL</p>
+            <p>Ormond Beach, FL</p>
+            <p>Daytona Beach, FL</p>
+            <p>Holly Hill, FL</p>
+            <p>De Leon Springs, FL</p>
+            <p>Deland, FL</p>
+          </div>
+          <button class="text-md bg-[#F8F8F2] rounded-lg py-2 px-4 min-w-[10vw] w-[20vw]">Contact</button>
+        </div>
+      </div>
 
     <footer class="bg-green-900 text-white py-8">
         <div class="container mx-auto px-4">
