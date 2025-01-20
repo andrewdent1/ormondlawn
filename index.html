@@ -58,32 +58,109 @@
         </nav>
     </header>
 
-    <div class="relative h-[100vh]">
-        <!-- Background Video -->
-        <video class="absolute top-0 left-0 w-full h-full object-cover z-10" autoplay loop muted>
-          <source src="background.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-    
-        <!-- Content Overlay -->
-        <div class="relative z-20 p-24 pt-40 flex flex-col justify-center h-full bg-black bg-opacity-60">
-          <h1 class="text-[#F8F8F2] text-4xl mb-10">
-            Local, family-run lawn service for over 20 years
-          </h1>
-          <h2 class="text-[#F8F8F2] text-2xl font-medium mb-10">
-            Proudly servicing personal and commercial properties in:
-          </h2>
-          <div class="grid grid-cols-3 gap-10 md:gap-6 xl:gap-2 text-[#F8F8F2] text-sm md:text-lg font-medium mb-10 w-[75vw] xl:w-[50vw]">
-            <p>Port Orange, FL</p>
-            <p>Ormond Beach, FL</p>
-            <p>Daytona Beach, FL</p>
-            <p>Holly Hill, FL</p>
-            <p>De Leon Springs, FL</p>
-            <p>Deland, FL</p>
+    <section>
+        <div class="relative h-[100vh]">
+            <!-- Background Video -->
+            <video class="absolute top-0 left-0 w-full h-full object-cover z-10" autoplay loop muted>
+              <source src="background.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        
+            <!-- Content Overlay -->
+            <div class="relative z-20 p-24 pt-40 flex flex-col justify-center h-full bg-black bg-opacity-60">
+              <h1 class="text-[#F8F8F2] text-4xl mb-10 font-bold">
+                Local, family-run lawn service for over 20 years
+              </h1>
+              <h2 class="text-[#F8F8F2] text-2xl font-medium mb-10 font-semibold">
+                Proudly servicing personal and commercial properties in:
+              </h2>
+              <div class="grid grid-cols-3 gap-10 md:gap-6 xl:gap-2 text-[#F8F8F2] text-sm md:text-lg font-medium mb-10 w-[75vw] xl:w-[50vw]">
+                <p>Port Orange, FL</p>
+                <p>Ormond Beach, FL</p>
+                <p>Daytona Beach, FL</p>
+                <p>Holly Hill, FL</p>
+                <p>De Leon Springs, FL</p>
+                <p>Deland, FL</p>
+              </div>
+              <button class="text-md bg-[#F8F8F2] rounded-lg py-2 px-4 w-[20vw] max-w-[250px]">Contact</button>
+            </div>
           </div>
-          <button class="text-md bg-[#F8F8F2] rounded-lg py-2 px-4 min-w-[10vw] w-[20vw]">Contact</button>
+    </section>
+
+    <section>
+        <div class="container mx-auto px-10 py-20">
+            <div class="flex flex-col lg:flex-row justify-between gap-8">
+                <div class="w-full lg:w-1/2">
+                    <h2 class="text-3xl font-semibold mb-8">About Us</h2>
+                    <p class="text-lg text-gray-600 mb-6">“Ormond Lawn Care is family-owned and operated right here in Volusia county, FL. Since our company opened its doors in 2001 we’ve treated every customer like they were a part of our family. Other companies may offer similar services, but at our company your name is more than something we saw on an invoice, and our work comes with a personal touch.</p>
+                    <p class="text-lg text-gray-600 mb-6">We enjoy problem solving, and working together with you to make your property look its very best. Whether your small family home needs a new look, or your large company’s factory hasn’t had proper landscaping in years, Ormond Lawn Care is here to help.”</p>
+                    <p class="text-lg text-gray-600 mb-6">- Robert Rossitto, Founder & Owner</p>
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <img src="about.jpg" alt="About Us" class="w-full h-auto rounded-lg">
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    
+    <section id="services" class="bg-[#F8F8F2]">
+        <div class="container mx-auto px-10 py-20">
+            <h2 class="text-3xl font-semibold mb-8">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="mowing.jpg" alt="Mowing" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Mowing</h3>
+                    <p class="text-lg text-gray-600">We offer weekly and bi-weekly mowing services for both residential and commercial properties.</p>
+                </div>
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="landscaping.jpg" alt="Landscaping" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Landscaping</h3>
+                    <p class="text-lg text-gray-600">Our landscaping services include mulching, planting, and trimming to keep your property looking its best.</p>
+                </div>
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="fertilizing.jpg" alt="Fertilizing" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Fertilizing</h3>
+                    <p class="text-lg text-gray-600">We offer fertilizing services to keep your lawn healthy and green all year long.</p>
+                </div>
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="mowing.jpg" alt="Mowing" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Mowing</h3>
+                    <p class="text-lg text-gray-600">We offer weekly and bi-weekly mowing services for both residential and commercial properties.</p>
+                </div>
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="landscaping.jpg" alt="Landscaping" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Landscaping</h3>
+                    <p class="text-lg text-gray-600">Our landscaping services include mulching, planting, and trimming to keep your property looking its best.</p>
+                </div>
+                <div class="service-card bg-white rounded-lg p-6 shadow-md">
+                    <img src="fertilizing.jpg" alt="Fertilizing" class="w-full h-auto rounded-lg">
+                    <h3 class="text-2xl font-semibold mt-4 mb-2">Fertilizing</h3>
+                    <p class="text-lg text-gray-600">We offer fertilizing services to keep your lawn healthy and green all year long.</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <button class="bg-white rounded-lg my-10 py-4 px-6 w-[20vw] max-w-[250px]">View All</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-green-900 text-white">
+        <div class="container mx-auto px-10 py-20">
+            <h2 class="text-3xl font-semibold mb-8">Contact Us</hjson>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="contact-info">
+                    <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+                    <div class="flex items start mb-4">
+                        <img src="phone-white.png" alt="Phone Icon" class="w-6 h-6 mr-4">
+                        <div>
+                            <p>Toll Free: 1-800-000-0000</p>
+                        </div>
+                    </div>
+                    <div class="flex items start mb-4">
+                        <img src="email-white.png" alt="Email Icon" class="w-6 h-6 mr-4">
+                        <div>
+                            <p>Email: 
+    </section>
 
     <footer class="bg-green-900 text-white py-8">
         <div class="container mx-auto px-4">
@@ -91,7 +168,7 @@
                 <div class="footer-section-1">
                     <div class="footer-logo mb-6 w-80">
                         <a href="index.html">
-                            <img src="logo.png" alt="OLC Logo" class="w-80">
+                            <img src="logo-white.png" alt="OLC Logo" class="w-80">
                         </a>
                     </div>
                 </div>
