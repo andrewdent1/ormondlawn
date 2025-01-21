@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-50">
+<body>
     <header class="z-30 w-[100vw]">    
         <nav class="flex items-center justify-between flex-wrap bg-emerald-900 px-12 py-4 z-10">
             <div class="flex items-center flex-no-shrink text-white mr-6 ">
@@ -41,19 +41,19 @@
                         class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-white hover:underline px-4">
                         About
                     </a>
-                    <div class="relative group inline-block block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-white hover:underline px-4">
+                    <div class="relative group inline-block block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-lg text-white hover:underline px-4 z-50">
                         Services
                         <svg class="inline-block w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                         <div class="absolute hidden group-hover:block bg-emerald-900 text-white py-2 rounded-lg shadow-lg">
-                            <a href="lawn-care.html" class="block w-[200px] px-4 py-2 hover:bg-emerald-800">Lawn Care</a>
+                            <a href="gardening.html" class="block w-[200px] px-4 py-2 hover:bg-emerald-800">Gardening</a>
+                            <a href="lawn-service.html" class="block px-4 py-2 hover:bg-emerald-800">Lawn Service</a>
+                            <a href="irrigation.html" class="block px-4 py-2 hover:bg-emerald-800">Irrigation</a>
                             <a href="mulching.html" class="block px-4 py-2 hover:bg-emerald-800">Mulching</a>
                             <a href="sod-laying.html" class="block px-4 py-2 hover:bg-emerald-800">Sod Laying</a>
-                            <a href="irrigation.html" class="block px-4 py-2 hover:bg-emerald-800">Irrigation</a>
-                            <a href="sprinkler-repair.html" class="block px-4 py-2 hover:bg-emerald-800">Sprinkler Repair</a>
-                            <a href="tree-work.html" class="block px-4 py-2 hover:bg-emerald-800">Tree Work</a>
-                            <a href="weed-removal.html" class="block px-4 py-2 hover:bg-emerald-800">Weed Removal</a>
+                            <a href="tree-services.html" class="block px-4 py-2 hover:bg-emerald-800">Tree Services</a>
+                            <a href="landscaping.html" class="block px-4 py-2 hover:bg-emerald-800">Landscaping</a>
                         </div>
                     </div>
                     <a href="pricing.html"
@@ -69,34 +69,21 @@
         </nav>
     </header>
 
-    <section class="bg-gray-50">
-        <div class="container mx-auto px-10 pt-20 bg-gray-50">
-            <div class="flex flex-col lg:flex-row justify-between gap-8">
-                <div class="w-full lg:w-1/2">
-                    <h2 class="text-3xl font-semibold mb-8">About Us</h2>
-                    <p class="text-lg text-gray-600 mb-6">“Ormond Lawn Care is family-owned and operated right here in Volusia County, FL. Since our company opened its doors in 2001, we’ve treated every customer like they were a part of our family. Other companies may offer similar services, but at our company your name is more than something we saw on an invoice, and our work comes with a personal touch.</p>
-                    <p class="text-lg text-gray-600 mb-6">We enjoy problem solving and working together with you to make your property look its very best. Whether your small family home needs a new look, or your large company’s factory hasn’t had proper landscaping in years, Ormond Lawn Care is here to help.”</p>
-                    <p class="text-lg text-gray-600 mb-6">- Robert Rossitto, Founder & Owner</p>
-                </div>
-                <div class="w-full lg:w-1/2">
-                    <img src="about.jpg" alt="About Us" class="w-full h-auto rounded-lg">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-gray-50">
-        <div class="container mx-auto px-10 pt-10 pb-20 bg-gray-50">
-            <div class="flex flex-col lg:flex-row justify-between gap-8">
-                <div class="w-full lg:w-1/2">
-                    <img src="landscape.jpg" alt="About Us" class="w-full h-auto rounded-lg">
-                </div>
-                <div class="w-full lg:w-1/2">
-                    <p class="text-lg text-gray-600 mb-6">Ormond Lawn Care has been a family run lawn service company in central Florida for over 20 years, we live locally and take as much pride in caring for your homes and businesses as we do our own. We take care of personal and commercial properties alike in Ormond, Port Orange, Holly Hill, Daytona Beach, DeLand, Deleon Springs and everything in between.</p>
-                    <p class="text-lg text-gray-600 mb-6">We offer full service subscription packages as well as “as needed” billing options. In addition to the standard lawn work we offer bed mulching, sod laying, irrigation installs, sprinkler repair, tree work, flower beds, weed removal & chemical spraying. We have confidence in our experience to ensure professional quality service and attitude towards whatever your needs may be.</p>
+    <section>
+        <section class="bg-gray-50">
+            <div class="container mx-auto px-10 py-20 bg-gray-50">
+                <div class="flex flex-col lg:flex-row justify-between gap-8">
+                    <div class="w-full lg:w-1/2">
+                        <h2 class="text-3xl font-semibold mb-8">Sod Laying</h2>
+                        <p class="text-lg text-gray-600 mb-6">Laying sod provides the benefit of an instant, flourishing green lawn without the waiting or difficulty of cultivating new grass from seed. Whether you want to patch up a dead area or install an entire lawn sod is sure to meet your needs.</p>
+                        <p class="text-lg text-gray-600 mb-6">Before planting new sod we remove all traces of the previous grass, in doing so we insure your new lawn will be level, as well as limiting the danger of fungus or bugs from the dead grass infecting it.</p>
+                    </div>
+                    <div class="w-full lg:w-1/2">
+                        <img src="about.jpg" alt="About Us" class="w-full h-auto rounded-lg">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
 
     <footer class="bg-emerald-900 text-white py-8">
