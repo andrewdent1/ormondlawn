@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-gray-50">
     <header class="z-30 w-[100vw]">    
         <nav class="flex items-center justify-between flex-wrap bg-emerald-900 px-12 py-4 z-10">
             <div class="flex items-center flex-no-shrink text-white mr-6 ">
@@ -58,37 +58,8 @@
         </nav>
     </header>
 
-    <section>
-        <div class="relative h-[85vh]">
-            <!-- Background Video -->
-            <video class="absolute top-0 left-0 w-full h-full object-cover z-10" autoplay loop muted>
-              <source src="background.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-        
-            <!-- Content Overlay -->
-            <div class="relative z-20 px-6 py-2 md:px-12 md:py-6 lg:px-24 lg:py-12 xl:px-48 xl:py-24 flex flex-col justify-center h-full bg-gray-900 bg-opacity-75">
-              <h1 class="text-[#F8F8F2] text-3xl lg:text-4xl mb-10 font-bold">
-                Ormond Beach's trusted, family-run lawn service for over 20 years
-              </h1>
-              <h2 class="text-[#F8F8F2] text-xl lg:text-2xl font-medium mb-10 font-semibold">
-                Proudly servicing personal and commercial properties in Ormond Beach and beyond:
-              </h2>
-              <div class="grid grid-cols-3 gap-10 md:gap-6 xl:gap-2 text-[#F8F8F2] text-sm md:text-lg font-medium mb-10 w-[75vw] xl:w-[50vw]">
-                <p>Port Orange, FL</p>
-                <p>Ormond Beach, FL</p>
-                <p>Daytona Beach, FL</p>
-                <p>Holly Hill, FL</p>
-                <p>De Leon Springs, FL</p>
-                <p>Deland, FL</p>
-              </div>
-              <button class="text-md bg-gray-50 rounded-lg py-2 px-4 w-[20vw] max-w-[250px] hover:bg-green-900 hover:text-gray-50 transition-colors">Contact</button>
-            </div>
-          </div>
-    </section>
-
-    <section>
-        <div class="container mx-auto px-10 py-20">
+    <section class="bg-gray-50">
+        <div class="container mx-auto px-10 pt-20 bg-gray-50">
             <div class="flex flex-col lg:flex-row justify-between gap-8">
                 <div class="w-full lg:w-1/2">
                     <h2 class="text-3xl font-semibold mb-8">About Us</h2>
@@ -102,75 +73,16 @@
             </div>
         </div>
     </section>
-    
-    <section id="services" class="bg-gray-50">
-        <div class="container mx-auto px-10 py-20">
-            <h2 class="text-3xl font-semibold mb-8">Our Services</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="mowing.jpg" alt="Mowing" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Gardening</h3>
-                    <p class="text-lg text-gray-600">Expert care for vibrant plants, weed control, and tailored garden designs to enhance your outdoor spaces.</p>
-                </div>
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="landscaping.jpg" alt="Landscaping" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Lawn Service</h3>
-                    <p class="text-lg text-gray-600">Routine mowing, edging, and fertilization for a lush, green lawn that’s healthy and perfectly maintained.</p>
-                </div>
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="fertilizing.jpg" alt="Fertilizing" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Irrigation</h3>
-                    <p class="text-lg text-gray-600">Efficient irrigation systems ensure your lawn and plants stay hydrated, conserving water and boosting growth.</p>
-                </div>
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="mowing.jpg" alt="Mowing" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Mulch & Sod</h3>
-                    <p class="text-lg text-gray-600">Professional mulching and sod installation for improved soil health, moisture retention, and a refreshed lawn appearance.</p>
-                </div>
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="landscaping.jpg" alt="Landscaping" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Tree Services</h3>
-                    <p class="text-lg text-gray-600">Trimming, pruning, and tree removal to maintain safety, health, and beauty of your property’s trees.</p>
-                </div>
-                <div class="service-card bg-white rounded-lg p-6 shadow-md">
-                    <img src="fertilizing.jpg" alt="Fertilizing" class="w-full h-auto rounded-lg">
-                    <h3 class="text-2xl font-semibold mt-4 mb-2">Landscaping</h3>
-                    <p class="text-lg text-gray-600">Custom designs, installations, and maintenance to create stunning, functional outdoor spaces that fit your vision.</p>
-                </div>
-            </div>
-            <div class="flex justify-center items-center">
-                <button class="mt-10 text-md bg-white shadow-md rounded-lg py-2 px-4 w-[20vw] max-w-[250px] hover:bg-green-900 hover:text-gray-50 transition-colors">View All</button>
-            </div>
-        </div>
-    </section>
 
-    <section class="contact-section py-24 bg-white gap-10">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col lg:flex-row lg:space-x-8 gap-16">
-                <!-- Client Left Section -->
-                <div class="client-left w-full mb-8 lg:mb-0 max-w-[75vw] mx-auto">
-                    <h2 class="text-3xl font-semibold text-gray-800 mb-6">Contact Us</h2>
-                    <p class="text-lg text-gray-600 mb-6">If you have any questions or would like to get in touch with
-                        us, you can reach us at OrmondLawnCare@gmail.com, (386) 295-1016, or by filling out the contact form below:</p>
-                    <form action="#" method="POST" class="space-y-4">
-                        <div class="flex flex-col">
-                            <label for="name" class="text-gray-700">Full Name</label>
-                            <input type="text" id="name" name="name" class="p-3 border border-gray-300 rounded-md" required>
-                        </div>
-                        <div class="flex flex-col">
-                            <label for="email" class="text-gray-700">Email Address</label>
-                            <input type="email" id="email" name="email" class="p-3 border border-gray-300 rounded-md"
-                                required>
-                        </div>
-                        <div class="flex flex-col">
-                            <label for="message" class="text-gray-700">Message</label>
-                            <textarea id="message" name="message" rows="4"
-                                class="mb-4 p-3 border border-gray-300 rounded-md" required></textarea>
-                        </div>
-                        <button type="submit"
-                            class="bg-emerald-700 text-white px-6 py-2 rounded-lg shadow-md hover:bg-emerald-800 transition w-48">Send
-                            Message</button>
-                    </form>
+    <section class="bg-gray-50">
+        <div class="container mx-auto px-10 pt-10 pb-20 bg-gray-50">
+            <div class="flex flex-col lg:flex-row justify-between gap-8">
+                <div class="w-full lg:w-1/2">
+                    <img src="landscape.jpg" alt="About Us" class="w-full h-auto rounded-lg">
+                </div>
+                <div class="w-full lg:w-1/2">
+                    <p class="text-lg text-gray-600 mb-6">Ormond Lawn Care has been a family run lawn service company in central Florida for over 20 years, we live locally and take as much pride in caring for your homes and businesses as we do our own. We take care of personal and commercial properties alike in Ormond, Port Orange, Holly Hill, Daytona Beach, DeLand, Deleon Springs and everything in between.</p>
+                    <p class="text-lg text-gray-600 mb-6">We offer full service subscription packages as well as “as needed” billing options. In addition to the standard lawn work we offer bed mulching, sod laying, irrigation installs, sprinkler repair, tree work, flower beds, weed removal & chemical spraying. We have confidence in our experience to ensure professional quality service and attitude towards whatever your needs may be.</p>
                 </div>
             </div>
         </div>
