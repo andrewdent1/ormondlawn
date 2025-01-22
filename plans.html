@@ -77,10 +77,17 @@
             <div class="container mx-auto px-10 py-20 bg-gray-50">
                 <div class="flex flex-col lg:flex-row justify-between gap-8">
                     <div class="w-full">
-                        <h2 class="text-3xl font-semibold mb-8">Service Plans</h2>
-                        <p class="text-lg text-gray-600 mb-6">At Ormond Lawn Care, we take care to provide our customers high quality services personalized for their unique needs. We are available to handle your needs in a consistent and timely manner. There is no job to large or small for Ormond Lawn Care.</p>
-                        <p class="text-lg text-gray-600 mb-6">All plans include 50 service visits per year, with an Ormond Lawn Care Foreman on your property at all times during our service visit. Our uniformed staff will complete their duties promptly and efficiently, in order to disturb you as little as possible.</p>
-                        <p class="text-lg text-gray-600 mb-6"><span class="font-bold">Please Note:</span> The size and labor intensity of each customers property can vary dramatically, from small one room residential, to large commercial properties. Please Request a Quote by calling or filling out the form on this webpage.</p>
+                        <div class="flex flex-col lg:flex-row justify-between gap-8 mb-4">
+                            <div class="flex">
+                                <div class="flex flex-col justify-center">
+                                    <h2 class="text-3xl font-semibold mb-8">Service Plans</h2>
+                                    <p class="text-lg text-gray-600 mb-6 w-4/5 ">At Ormond Lawn Care, we take care to provide our customers high quality services personalized for their unique needs. We are available to handle your needs in a consistent and timely manner. There is no job to large or small for Ormond Lawn Care.</p>
+                                    <p class="text-lg text-gray-600 mb-6 w-4/5">All plans include 50 service visits per year, with an Ormond Lawn Care Foreman on your property at all times during our service visit. Our uniformed staff will complete their duties promptly and efficiently, in order to disturb you as little as possible.</p>
+                                    <p class="text-lg text-gray-600 mb-6"><span class="font-bold">Please Note:</span> The size and labor intensity of each customers property can vary dramatically, from small one room residential, to large commercial properties. Please Request a Quote by calling or filling out the form on this webpage.</p>
+                                </div>
+                                <img src="plans.png" alt="" class="max-w-[40vw] h-auto rounded-lg ml-4">
+                            </div>
+                        </div>
                         <div class="flex flex-col lg:flex-row gap-8 pt-8">
                             <div class="w-full lg:w-1/3 bg-white p-6 rounded-lg shadow-lg mb-8">
                                 <h3 class="text-2xl font-semibold mb-4">Basic Plan</h3>
@@ -97,7 +104,7 @@
                         </div>
                         <div class="w-full p-6 flex items-center justify-center flex-col">
                             <h3 class="text-2xl font-semibold mb-4">Want to see how Ormond Lawn Care can help you?</h3>
-                            <button class="text-md text-white bg-green-900 rounded-lg py-2 px-4 w-[20vw] max-w-[250px] hover:bg-green-700 hover:text-gray-50 transition-colors">Request a Quote</button>
+                            <a href="contact.html"><button class="text-md text-white bg-green-900 rounded-lg py-2 px-4 w-[20vw] max-w-[250px] hover:bg-green-700 hover:text-gray-50 transition-colors">Request a Quote</button></a>
                         </div>
                     </div>
                 </div>
@@ -107,30 +114,25 @@
 
     <footer class="bg-emerald-900 text-white py-8">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between gap-8">
+            <div class="flex flex-col md:flex-row justify-evenly gap-8">
                 <div class="footer-section-1">
-                    <div class="footer-logo mb-6 w-80">
+                    <div class="footer-logo mb-6 w-80 mx-auto">
                         <a href="index.html">
                             <img src="logo-white.png" alt="OLC Logo" class="w-80">
                         </a>
                     </div>
                 </div>
-                <div id="quick-links" class="text-white hidden xl:block mx-auto">
-                    <h3 class="text-xl font-semibold mb-4 text-grey-200">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="index.html" class="hover:text-white">Home</a></li>
-                        <li><a href="about.html" class="hover:text-white">About Us</a></li>
-                        <li><a href="services.html" class="hover:text-white">Services</a></li>
-                        <li><a href="pricing.html" class="hover:text-white">Pricing & Plans</a></li>
-                        <li><a href="contact.html" class="hover:text-white">Contact</a></li>
-                    </ul>
-                </div>
                 <div id="footer-contact" class="text-white mx-auto">
                     <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
-                    <div class="flex items-start">
-                        <img src="phone-white.png" alt="Phone Icon" class="w-6 h-6 mr-4">
+                    <div class="flex items-start mb-4">
+                        <img src="phone.png" alt="Phone Icon" class="w-6 h-6 mr-4">
                         <div>
                             <p>(386) 295-1016</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <img src="email.png" alt="Phone Icon" class="w-6 h-6 mr-4">
+                        <div>
                             <p>OrmondLawnCare@gmail.com</p>
                         </div>
                     </div>
